@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
+    "start-watch": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/jordankeen/test-api-v1/issues"
   },
-  "homepage": "https://github.com/jordankeen/test-api-v1#readme"
+  "homepage": "https://github.com/jordankeen/test-api-v1#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.3.13"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
 }
